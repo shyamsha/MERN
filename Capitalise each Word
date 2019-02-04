@@ -1,0 +1,14 @@
+function capitalizeWords(a){
+    var capitalize=[];
+    var saperate = a.split(' ')
+    if (a === '') {
+        return "empty string"
+    }
+    else {
+    for (var i = 0; i < saperate.length; i++) {
+        capitalize.push(saperate[i].charAt(0).toUpperCase() + saperate[i].slice(1))
+        }
+    }
+    let name=capitalize.join(' ')
+    return name
+}
