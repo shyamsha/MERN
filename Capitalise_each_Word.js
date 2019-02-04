@@ -1,7 +1,7 @@
-function capitalizeWords(a){
+function capitalizeWords(string){
     var capitalize=[];
-    var saperate = a.split(' ')
-    if (a === '') {
+    var saperate = string.split(' ')
+    if (string === '') {
         return "empty string"
     }
     else {
@@ -9,6 +9,6 @@ function capitalizeWords(a){
         capitalize.push(saperate[i].charAt(0).toUpperCase() + saperate[i].slice(1))
         }
     }
-    let name=capitalize.join(' ')
-    return name
+    let captial=capitalize.join(' ')
+    return captial
 }
