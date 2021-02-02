@@ -1,13 +1,14 @@
-function startsWith(string,startstring){
-    let saperate = string.split(' ')
-    for (var i = 0; i < saperate.length;i++){
-        if (saperate[i] === startstring) 
-        {
-            return true
-        }
-        else 
-        {
-            return false
-        }
+// string starts with specific char
+
+function startsWith(string, startString) {
+  let separate = string.split(" ");
+  for (var i = 0; i < separate.length; i++) {
+    if (separate[i] === startString) {
+      return true;
+    } else {
+      return false;
     }
+  }
 }
+
+console.log(startsWith('sdfj','f'))

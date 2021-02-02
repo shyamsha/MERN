@@ -1,9 +1,13 @@
-function removeArrayElements(aray,number){
-//type code here
-    for (let i = 0; i < aray.length;i++) { 
-        if (aray[i] == number) {
-    aray.splice(i,1)
-}
+// remove array specified element
+
+function removeArrayElements(array, number) {
+  //type code here
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == number) {
+      array.splice(i, 1);
     }
-    return aray
+  }
+  return array;
 }
+
+console.log(removeArrayElements(['a',1,2,'5'],5))

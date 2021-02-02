@@ -1,5 +1,7 @@
+// remove duplicates in string
+
 function removeDup(string){
-    let eachWord = string.split(' ') //spliting each word
+    let eachWord = string.split(' ') //splitting each word
     let insert = []
     for (let i = 0; i < eachWord.length;i++)
     { for (let j = i + 1; j < eachWord.length;j++)
@@ -14,3 +16,5 @@ function removeDup(string){
     let join=insert.join(' ') //join all words together 
     return join
 }
+
+console.log(removeDup('java script was nice java java'))

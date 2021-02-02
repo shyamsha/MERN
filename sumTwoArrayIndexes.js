@@ -1,3 +1,5 @@
+// write two array indexes sum
+
 function sumTwoArrayIndexes(array1,array2){
     sum = []
     for (let i = 0; i < array1.length; i++){
@@ -14,3 +16,5 @@ function sumTwoArrayIndexes(array1,array2){
     }
 return sum
 }
+
+console.log(sumTwoArrayIndexes([0,1,2,3],[4,5,6,7]))

@@ -1,3 +1,5 @@
+// two array elements sum in index wise if greater than array size ignore
+
 array1 = [1, 0, 2, 3, 4];
 array2 = [3, 5, 6, 7, 8, 13];
 d = []

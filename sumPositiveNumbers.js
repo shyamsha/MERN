@@ -1,3 +1,5 @@
+// You get an array of numbers, return the sum of all of the positives ones.
+
 function sumPos(sum){
 let add=0
     if (sum.length == 0) {
@@ -12,3 +14,5 @@ let add=0
 
     } return add
 }
+
+console.log(sumPos([0,0,-1,1]))
