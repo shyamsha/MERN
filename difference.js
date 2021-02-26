@@ -10,4 +10,5 @@ function difference(firstArray,secondArray){
      return unique
     }
    
+    console.log(difference([1,4,5],[1,4,5,6]))
 
